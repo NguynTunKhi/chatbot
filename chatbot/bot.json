@@ -1,0 +1,80 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": "See you later!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We offer refund for each product, of course this will be suitable with you.",
+      "required_words": ["refund"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "recovery", "file"],
+      "bot_response": "You can recover your file by typing: 'How to recover file' on Google.",
+      "required_words": ["recovery", "file"]
+    },
+    {
+      "response_type": "pricing",
+      "user_input": ["price", "cost", "how much"],
+      "bot_response": "The price of the [model] is [price]. Is there anything specific you are looking for in a computer?",
+      "required_words": ["price"]
+    },
+    {
+      "response_type": "gaming",
+      "user_input": ["gaming", "games"],
+      "bot_response": "We have several options available for gaming computers. The [model] is a popular choice due to its high performance graphics card and fast processor. Would you like to know more about this model?",
+      "required_words": ["gaming"]
+    },
+    {
+      "response_type": "graphics",
+      "user_input": ["graphics", "graphics card"],
+      "bot_response": "We have a range of graphics cards available, including the AMD Radeon RX 6800 XT and the NVIDIA GeForce RTX 3080. Both of these graphics cards are suitable for high-quality gaming and graphics work. Which one are you interested in?",
+      "required_words": ["graphics"]
+    },
+    {
+      "response_type": "storage",
+      "user_input": ["storage", "hard drive"],
+      "bot_response": "We have a variety of SSDs available, including the Samsung 970 EVO Plus and the Kingston A2000. Both of these SSDs offer fast read and write speeds and are suitable for most users. Which one are you interested in?",
+      "required_words": ["storage"]
+    },
+    {
+      "response_type": "budget",
+      "user_input": ["budget", "affordable", "cheap"],
+      "bot_response": "We have a range of computers available at different price points. The [model] is a budget-friendly option that still has strong performance and features. Would you like to know more about this model?",
+      "required_words": ["budget"]
+    },
+    {
+      "response_type": "no",
+      "user_input": ["no", "nope", "nah"],
+      "bot_response": "Okay, is there anything else I can help you with?",
+      "required_words": ["no"]
+    },
+    {
+      "response_type": "yes",
+      "user_input": ["yes", "yep", "yeah"],
+      "bot_response": "Great! Tell me more about what you are looking for.",
+      "required_words": ["yes"]
+    }
+]
